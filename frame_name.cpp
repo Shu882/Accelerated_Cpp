@@ -3,6 +3,7 @@
 // accelerated C++, section 1.2
 //
 #include <iostream>
+#include <string>
 
 int main(){
     // ask the user to type in the name
