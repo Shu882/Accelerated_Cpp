@@ -26,7 +26,7 @@ int main(){
     const std::string blank_frame = '*' + spaces + '*';
     for (int i = 1; i <= nrows; ++i) {
         // there's a lot of nuances (allowed data types, type conversion). At the point, better just use the logical operators
-        if (i == 1 | i == nrows) // this is bitwise operator, what does it do to booleans?
+        if (i == 1 | i == nrows) // this is bitwise operator, better use logical OR operator
             std::cout << one << std::endl;
         else if (i == (nrows + 1) / 2)
             std::cout << '*' << message << '*' << std::endl;
