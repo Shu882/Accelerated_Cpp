@@ -7,6 +7,7 @@
 #include <string>
 #include <iomanip>
 #include <ios> //input output stream base
+#include <algorithm>
 
 using std::cin;
 using std::cout;
@@ -14,6 +15,7 @@ using std::endl;
 using std::string;
 using std::setprecision;
 using std::streamsize;
+using std::sort;
 
 int main(){
     string name;
