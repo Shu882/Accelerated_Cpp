@@ -8,6 +8,7 @@
 #include <string>
 #include <iomanip>
 #include <istream>
+#include <algorithm>
 
 using std::endl; //manipulator
 using std::cin;
