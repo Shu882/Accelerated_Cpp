@@ -7,6 +7,7 @@
 #include <iomanip>
 #include <string>
 #include <vector>
+#include <stdexcept>
 
 using std::cin;
 using std::cout;
@@ -18,6 +19,7 @@ using std::setprecision;
 using std::istream;
 using std::domain_error;
 using std::max;
+using std::sort;
 
 
 struct Student_info{
