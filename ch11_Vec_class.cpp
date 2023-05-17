@@ -72,7 +72,7 @@ template <class T>
 Vec<T>& Vec<T>::operator=(const Vec& rhs){
     //check self-assignment
     if(&rhs!=this){
-        // free the array in the lhs
+        // free the array inc the lhs
         uncreate();
 
         // copy the elements from the rhs to lhs
